@@ -11,7 +11,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Motorcar Inc.</label>
-    <navType>Standard</navType>
+    <navType>Standard</navType> 
     <tabs>standard-Contact</tabs>
     <tabs>Charge__c</tabs>
     <uiType>Lightning</uiType>

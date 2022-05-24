@@ -12,7 +12,7 @@
                     <span class="slds-checkbox_on">Active</span>
                     <span class="slds-checkbox_off">Inactive</span>
                 </span>
-            </label>
+            </label> 
         </div> 
     </div> 
 </aura:component>

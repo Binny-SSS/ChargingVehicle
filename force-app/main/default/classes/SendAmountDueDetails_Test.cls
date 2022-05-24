@@ -11,7 +11,7 @@ public class SendAmountDueDetails_Test {
         insert con;
         SendAmountDueDetails.sendEmail(con);
     }
-    
+     
     public static testMethod void validateTriggerUpdate() {
         Contact c = new Contact();
         c.LastName = 'Test';

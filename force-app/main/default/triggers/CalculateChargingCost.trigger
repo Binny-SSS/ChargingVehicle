@@ -11,7 +11,7 @@ trigger CalculateChargingCost on Charge__c (after update) {
             chargeContactMap.put(c.Contact_Id__c, c);
         }
     }
-    
+     
     if(contactId.size() > 0){
         contactList = [select id,Card_Value__c,Last_Used__c,Total_Usage_Hours__c from Contact where Id =: contactId];
     }

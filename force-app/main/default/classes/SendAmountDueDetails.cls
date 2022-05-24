@@ -12,7 +12,7 @@ public class SendAmountDueDetails {
             mail.setHtmlBody(body);
             String []Address = new String[] { c.Email };
             mail.settoAddresses(Address);
-                mails.add(mail);
+               mails.add(mail);
         }
         Messaging.sendEmail(mails);
     }
