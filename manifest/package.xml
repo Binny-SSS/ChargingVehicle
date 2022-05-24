@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>SendAmountDueDetails_Test</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>CalculateChargingCost</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>Motorcar_Inc</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>Charge__c.Contact_Id__c</members>
+		<members>Contact.Card_Value__c</members>
+		<members>Contact.Languages__c</members>
+		<members>Contact.Last_Used__c</members>
+		<members>Contact.Level__c</members>
+		<members>Contact.Total_Usage_Hours__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Charge__c</members>
+		<name>CustomObject</name>
+	</types>
+	<version>53.0</version>
+</Package>
